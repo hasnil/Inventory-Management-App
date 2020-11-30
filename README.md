@@ -1,6 +1,6 @@
 # ENSF607-Final-Project-Lotfi-Hunter
 
-##Authors
+## Authors
 
 - Lotfi Hasni
 - Hunter Kimmett
