@@ -1,9 +1,17 @@
-# ENSF607-Final-Project-Lotfi-Hunter
+# Inventory-Management-App
 
 ## Authors
 
 - Lotfi Hasni
 - Hunter Kimmett
+
+## Introduction
+
+The goal of this project was to create a GUI using Java allowing for a user to check prices, add, modify, delete, sell and order new inventory items as well as add, modify, delete and check on suppliers. These databases are stored in an SQL database which is modified by the App. The project is divided into 3 packages:
+
+- Pre-Excercise: Connects to the SQL database and then imports information from text files.
+- Server: Accesses and  modifies SQL database based on messages from Client. Can be run on a different device than the Client.
+- Client: Runs GUI for user to view/edit SQL database on Server side using messages. Can be run on a different device than Server.
 
 ## Contents
 
@@ -79,4 +87,14 @@ To run the program, first run the server program serverController.ModelControlle
 The program will give a login window asking for credentials. Currently a valid username is "user" and a valid password is "pass". Enter this information and a new window will open, prompting you to either open the customer database manager or the tool database manager.
 
 These programs allow for the searching, updating, adding, and deletion of tools and customers.
+
+## Program In Action
+
+Inventory GUI:
+
+![](screenshots/Inventory.png)
+
+Supplier GUI:
+
+![](screenshots/Clients.png)
 
