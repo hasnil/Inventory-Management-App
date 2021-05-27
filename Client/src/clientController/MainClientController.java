@@ -11,7 +11,7 @@ import java.net.Socket;
 public class MainClientController {
 
 	
-	private String ip = "50.99.226.114";
+	private String ip = "localhost";
 	/**
 	 * Socket for communicating with server side.
 	 */
@@ -19,7 +19,7 @@ public class MainClientController {
 	
 	public MainClientController(){
 		try {
-			serverCommunicator = new Socket(ip, 1700);
+			serverCommunicator = new Socket(ip, 8099);
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

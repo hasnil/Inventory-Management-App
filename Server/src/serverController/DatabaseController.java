@@ -38,7 +38,7 @@ public class DatabaseController {
 	
 	
 	// Edit the following info to suit SQL needs
-	public String connectionInfo = "jdbc:mysql://localhost:3306/" + databaseName,  login = "root", password = "zgmfx09a";
+	public String connectionInfo = "jdbc:mysql://localhost:3306/" + databaseName + "?serverTimezone=GMT%2B8",  login = "root", password = "zgmfx09a";
 
 	public DatabaseController()
 	{
